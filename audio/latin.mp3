@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creatorversion="1.2.2" type="instrumenttracksettings" creator="LMMS" version="1.0">
+  <head/>
+  <instrumenttracksettings type="0" name="latin_guitar01.ogg" muted="0" solo="0">
+    <instrumenttrack pitch="0" pan="-3.2" usemasterpitch="1" fxch="0" basenote="57" vol="131.2" pitchrange="1">
+      <instrument name="audiofileprocessor">
+        <audiofileprocessor stutter="1" reversed="0" src="latin/latin_guitar01.ogg" eframe="1" sframe="6.5267336e-06" looped="0" interp="1" amp="100" lframe="1.3053467e-05"/>
+      </instrument>
+      <eldata fwet="0" ftype="0" fcut="14000" fres="0.5">
+        <elvol rel="0.1" ctlenvamt="0" userwavefile="" lpdel="0" lspd="0.1" lshp="0" x100="0" hold="0.5" amt="0" sustain="0.5" lspd_syncmode="0" dec="0.5" lamt="0" lspd_numerator="4" pdel="0" lspd_denominator="4" latt="0" att="0"/>
+        <elcut rel="0.1" ctlenvamt="0" userwavefile="" lpdel="0" lspd="0.1" lshp="0" x100="0" hold="0.5" amt="0" sustain="0.5" lspd_syncmode="0" dec="0.5" lamt="0" lspd_numerator="4" pdel="0" lspd_denominator="4" latt="0" att="0"/>
+        <elres rel="0.1" ctlenvamt="0" userwavefile="" lpdel="0" lspd="0.1" lshp="0" x100="0" hold="0.5" amt="0" sustain="0.5" lspd_syncmode="0" dec="0.5" lamt="0" lspd_numerator="4" pdel="0" lspd_denominator="4" latt="0" att="0"/>
+      </eldata>
+      <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+      <arpeggiator arptime_denominator="4" arprange="1" arptime_syncmode="0" arptime="100" arpmode="0" arpmiss="0" arpgate="100" arpskip="0" arptime_numerator="4" arp="0" arpdir="0" arp-enabled="0" arpcycle="0"/>
+      <midiport outputprogram="1" outputcontroller="0" outputchannel="1" basevelocity="63" inports="" inputchannel="0" fixedoutputvelocity="-1" readable="1" fixedoutputnote="-1" fixedinputvelocity="-1" inputcontroller="0" writable="0"/>
+      <fxchain enabled="0" numofeffects="0"/>
+    </instrumenttrack>
+  </instrumenttracksettings>
+</lmms-project>
