@@ -8,6 +8,10 @@ const introStory = ["Seventy years ago a bright white light tore through the nig
 
 ]
 
+const theGreatArray = [
+    
+]
+
 //-------------------------Variables------------------------
 let introIdx = 0
 
