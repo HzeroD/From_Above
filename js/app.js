@@ -32,6 +32,10 @@ const layerOneStory = [
 }]
 
 const layerTwoStory = [
+    {}, //STORY OVER
+
+    {}, //STORY OVER
+
     {  //MOUNTAIN CLIMBER
         storyline: ["The mountain was nowhere near impossibly tall and during her training with Basil the Prophet she had climbed taller ones numerous times. Resting after two hours or so of climbing, a loud roar came from up ahead. "],
         choices: ["Ride the drake", "Kill the drake"]
@@ -49,10 +53,9 @@ const layerTwoStory = [
 
 
 //-------------------------Variables------------------------------------------
-let leftTracker 
-let rightTracker
-let storyLayer
-let storyPath
+let idxCurrent = 0
+let idxNext = 0
+let storyLayer = []
 
 //-------------------------Cached Element References----------------------
 let introDiv = document.querySelector(".carousel-item")
@@ -86,30 +89,35 @@ function renderIntro(evt){
 }
 
 function mainGameInit(){
-    storyLayer
-    storyPath = layerZeroStory
-    for(let i = 0;i < storyPath[].storyLine1.length;i++){
+
+    storyLayer = layerZeroStory
+    for(let i = 0;i < storyPath[idxCurrent].storyline.length;i++){
         storyP[i].innerHTML = theGreatArray[0].storyLine1[i]
     }
-    for(let i = 0;i< theGreatArray[0].choices.length;i++){
-        listEl[i].innerHTML = theGreatArray[0].choices[i]
+    for(let i = 0;i< storyLayer[idxCurrent].choices.length;i++){
+        listEl[i].innerHTML = storyLayer[idxCurrent].choices[i]
         listEl[i].style.background = "purple"
         listEl[i].style.color = "red"
     }
-
-    
-
     audioEl.src = "/audio/Hollow Knight OST - Calm Greenpath (Extended).mp3"
+    //audioEl.src = storyLayer[idxCurrent].music ACTUAL MUSIC FILE ACCESS STATEMENT(WILL IMPLEMENT LATER)
+
+
+
 }
 
-function choiceLogic(){
-    if(storyLayer === 1){
-        storyPath = layerOneStory
-    } else if(storyLayer === 2){
-
-    } else if(storyLayer === 3){
-
+function choiceLogic(evt){
+    for(let i = 1; i <= idxCurrent; i++){
+        idxNext += 2
     }
+    idxCurrent = idxNext - 2  //ADJUSTER DUE TO POS AND IDX DIFFERENTIAL
+    let choiceHolder = parseInt(evt.target.id)
+    if(choiceHolder === 1){
+        idxCurrent += 1
+    }
+
+    mainGameInit()
+
 }
 
 
