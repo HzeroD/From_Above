@@ -57,6 +57,7 @@ let idxCurrent = 0
 let idxNext = 0
 let storyLayer = []
 let layerCount = 0
+let choiceHolder = 0
 
 //-------------------------Cached Element References----------------------
 let introDiv = document.querySelector(".carousel-item")
@@ -116,14 +117,25 @@ function mainGameInit(){
 }
 
 function choiceLogic(evt){
-    for(let i = 1; i <= idxCurrent; i++){
-        idxNext += 2
-    }
-    idxCurrent = idxNext - 2  //ADJUSTER DUE TO POS AND IDX DIFFERENTIAL
-    let choiceHolder = parseInt(evt.target.id)
-    if(choiceHolder === 1){
-        idxCurrent += 1
-    }
+    // for(let i = 1; i <= idxCurrent; i++){
+    //     idxNext += 2
+    // }
+    // idxCurrent = idxNext - 2  //ADJUSTER DUE TO POS AND IDX DIFFERENTIAL
+    // let choiceHolder = parseInt(evt.target.id)
+    // if(choiceHolder === 1){
+    //     idxCurrent += 1
+    // }
+
+     for(let i = 0; i <= idxCurrent; i++){
+         idxNext += 2
+     }
+     idxCurrent = idxNext
+     
+     choiceHolder = parseInt(evt.target.id)
+
+     if(choiceHolder === 1){
+         idxCurrent += 1
+     }
 
     mainGameInit()
 
