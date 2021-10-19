@@ -56,6 +56,7 @@ const layerTwoStory = [
 let idxCurrent = 0
 let idxNext = 0
 let storyLayer = []
+let layerCount = 0
 
 //-------------------------Cached Element References----------------------
 let introDiv = document.querySelector(".carousel-item")
@@ -90,15 +91,23 @@ function renderIntro(evt){
 
 function mainGameInit(){
 
-    storyLayer = layerZeroStory
-    for(let i = 0;i < storyPath[idxCurrent].storyline.length;i++){
-        storyP[i].innerHTML = theGreatArray[0].storyLine1[i]
+    if(layerCount === 0) {
+        storyLayer = layerZeroStory
+    } else if(layerCount === 1){
+        storyLayer = layerOneStory
+    } else if(layerCount === 2){
+        storyLayer = layerTwoStory
+    }
+    for(let i = 0;i < storyLayer[idxCurrent].storyline.length;i++){
+        storyP[i].innerHTML = storyLayer[idxCurrent].storyLine1[i]
     }
     for(let i = 0;i< storyLayer[idxCurrent].choices.length;i++){
         listEl[i].innerHTML = storyLayer[idxCurrent].choices[i]
         listEl[i].style.background = "purple"
         listEl[i].style.color = "red"
     }
+
+    idxCurrent = storyLayer.
     audioEl.src = "/audio/Hollow Knight OST - Calm Greenpath (Extended).mp3"
     //audioEl.src = storyLayer[idxCurrent].music ACTUAL MUSIC FILE ACCESS STATEMENT(WILL IMPLEMENT LATER)
 
