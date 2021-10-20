@@ -16,9 +16,10 @@ const introStory = ["Seventy years ago a bright white light tore through the nig
 
 const layerZeroStory = [
 {storyline: ["Left it is then. Farewell. Be strong.","And so she went. The green, rolling hills of Galos were vast, and with the severely blue sky holding the absurdly radiant sun, the girl felt joy and optimism the likes of which surprised her.","The hours came and went but the girl looked forward without turning in the slightest. Until a quick, large shadow passed right through her: she looked up immediately. A drake! Impossible. But so it was, a dark purple, rough looking drake was coming down fast and there wasn't a place to hide in these vast open fields. The drake landed before her, his eyes locked on her with intent. What will the girl do?"],
-choices: ["Talk to the beast", "Blast it with fire magic"]
-}
 
+choices: ["Talk to the beast", "Blast it with fire magic"]
+
+}
 ]
 
 const layerOneStory = [
@@ -53,9 +54,9 @@ const layerTwoStory = [
 
 
 //-------------------------Variables------------------------------------------
-let idxCurrent = 0
+let idxCurrent = 1
 let idxNext = 0
-let storyLayer = []
+let storyLayer 
 let layerCount = 0
 let choiceHolder = 0
 
@@ -69,7 +70,7 @@ let listEl = document.querySelectorAll(".list-group-item")
 
 button.addEventListener('click',renderIntro)
 sliderBtns.addEventListener('click',mainGameInit)
-listEl = addEventListener('click',)
+listEl = addEventListener('click',choiceLogic)
 
 
 
@@ -86,29 +87,31 @@ function renderIntro(evt){
 
     audioEl.src = "/audio/Hollow Knight OST - Title Theme.mp3"
     
-    sliderBtns.addEventListener('click',mainGameInit)
+    
     
 }
 
 function mainGameInit(){
 
-    if(layerCount === 0) {
-        storyLayer = layerZeroStory
-    } else if(layerCount === 1){
-        storyLayer = layerOneStory
-    } else if(layerCount === 2){
-        storyLayer = layerTwoStory
+    // if(layerCount === 0) {
+    //     storyLayer = layerZeroStory
+    // } else if(layerCount === 1){
+    //     storyLayer = layerOneStory
+    // } else if(layerCount === 2){
+    //     storyLayer = layerTwoStory
+    // }
+    storyLayer = layerOneStory
+    for(let i = 0;i <storyP.length;i++){ 
+        storyP[i].innerHTML = layerOneStory[1].storyline[i]
     }
-    for(let i = 0;i < storyLayer[idxCurrent].storyline.length;i++){
-        storyP[i].innerHTML = storyLayer[idxCurrent].storyLine1[i]
-    }
-    for(let i = 0;i< storyLayer[idxCurrent].choices.length;i++){
-        listEl[i].innerHTML = storyLayer[idxCurrent].choices[i]
+    for(let i = 0;i<listEl.length;i++){
+        listEl[i].innerHTML = layerOneStory[1].choices[i]
         listEl[i].style.background = "purple"
         listEl[i].style.color = "red"
-    }
+    } 
+    layerCount += 1
 
-    idxCurrent = storyLayer.
+    
     audioEl.src = "/audio/Hollow Knight OST - Calm Greenpath (Extended).mp3"
     //audioEl.src = storyLayer[idxCurrent].music ACTUAL MUSIC FILE ACCESS STATEMENT(WILL IMPLEMENT LATER)
 

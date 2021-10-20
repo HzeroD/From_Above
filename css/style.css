@@ -1,0 +1,91 @@
+
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(241,165,126,1) 35%, rgba(240,86,6,1) 100%);
+} 
+.main-div{
+    position: relative;
+    margin: 0px 400px 0px 100px;
+
+    animation: fadeInDown;
+
+}
+
+p{
+    position: relative;
+    border-radius: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+    
+    top: 40px;
+    background: black;
+    color: white;
+    padding-left: 7%;
+    animation: animate_fadeInDown;
+    
+
+    
+    
+}
+
+ul{
+    position:absolute;
+    margin-top:70px;
+    
+}
+
+
+
+/* #p1{
+    animation: animated-text 4s linear 1s 1 normal both;
+
+}
+
+#p2{
+    animation: animated-text 5s linear 6s 1 normal both;
+
+}
+
+#p3{
+    animation: animated-text 5s linear 11s 1 normal both;
+
+} */
+
+
+
+
+
+.btn{
+    position: absolute;
+    top: 350px;
+    right: 43%;
+
+}
+
+.btn-group{
+    position: absolute;
+    top: 270px;
+    right: 30%;
+}
+
+/*p.text{
+    position: relative;
+    top: 40px;
+    background: black;
+    color: white;
+    padding-left: 7%;
+}*/
+
+
+  
+  /* text animation */
+  
+ 
+
+  @keyframes animate_fadeInDown{ 
+    from { width: 0; } 
+  }
