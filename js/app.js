@@ -34,7 +34,7 @@ const layerZeroStory = [
 
     },
     {   //MAGIC: DRAKE
-        storyline:["The girl blasted the massive beast with fire square in its face. The drake shrieked and quickly moved backwards.", "The magic assault was steady and unrelenting, and so the drake took off quicker than when it landed. But there was a problem. It went straight in the direction of the mountains.Bold, decisive, and never one to back down, she marched on. Ready for anything.","It took three more hours to reach the foot of the mountain, where she found the wooden cabin surrounded by grazing sheep. Before she had a chance to knock the woman with the long black hair and the mark on the scar on her face came out, fully expecting the marked child. 'Ah, here you are, child! You must be exhausted. Come inside and rest up for the day.' The woman's name was Ingrid: slim, tall, pretty, and somehow old and young at once. After dinner the girl wondered out  "],
+        storyline:["The girl blasted the massive beast with fire square in its face. The drake shrieked and quickly moved backwards.", "The magic assault was steady and unrelenting, and so the drake took off quicker than when it landed. But there was a problem. It went straight in the direction of the mountains.Bold, decisive, and never one to back down, she marched on. Ready for anything.","It took three more hours to reach the foot of the mountain, where she found the wooden cabin surrounded by grazing sheep. Before she had a chance to knock the woman with the long black hair and the mark on the scar on her face came out, fully expecting the marked child. 'Ah, here you are, child! You must be exhausted. Come inside and rest up for the day.' The woman's name was Ingrid: slim, tall, pretty, and somehow old and young at once. After dinner the girl mentioned her encounter with the drake. Ingrid was near unbelieving--no one she knows has seen a drake in over a decade. But worse yet was the danger her sheep were in. Surely the flying beast made its home near the mountain peak where they tend to do so. 'Child, the pride of a drake can only be subdued through strength. You bearing Ora's sign on your wrist allowed you to face it and win, meaning you might be safe from it if you were to see it again. I on the other hand....'. It was a tense, sleepless night for Ingrid. The next morning the girl pepared herself for the journey ahead. She was to take the tunnel highway which cut right through the mountain, getting her to Amos within a day. But she could not just leave Ingrid in her current situation. 'No child! Too much is at stake. Carry on with your task. I can well handle myself'. But there girl was stern and at times obstinate. And strong. Yes, strong. "],
     
         choices: ["Climb the mountain", "Cross through tunnel"],
 
@@ -52,7 +52,7 @@ const layerZeroStory = [
         },
     
         {  //TUNNEL VENTURE
-            storyline: ["And on she went with her torch at hand....","",""],
+            storyline: ["And on she went with her torch at hand. ","",""],
             choices: ["Use Ora's Sign", "Wait for help"]
         }
     
@@ -65,9 +65,16 @@ const layerThreeStory = [
     {},
     {},
     {storyline: ["She slowly but assuredly moved close to the drake. Its breath tranquil, and its lids half closed, she grew bolder and then suddenly, in one aggressive move jumped on the base of its neck.",
-"It roared and ascended with ease. Grabbing on to the short dark hairs on its neck and soaring through the sky made her feel strong, like destiny was on her side. "],
+"It roared and ascended with ease. Grabbing on to the short dark hairs of its neck and soaring through the sky on this strong beast made her feel stronger than ever in her life, and like destiny was certainly on her side. "],
 
 choices: ["Chuckle", "Keep your soic dignity"]
+},
+{
+    storyline: ["Any living creature on the verge of death is capable of accessing enormous strength. The drake now vulnerable, she could not miss her chance. The mark on her right wrist felt hot and almost like it were dragging in the rest of her body.", "It was over promptly. She struck at its neck right at the junction between neck and body. A massive, gruesome hole remaining where the attack landed. Ingrid's problem was no more.","The girl descended the mountain quickly and thought to herself about finding some way to send news back on the drake's death. For now however, she'd focus on the road ahead. It was getting late and there was possibly no place to lodge. She'd have to keep going through a portion of the night and arrive at Amos slightly before daybreak. "],
+
+    choices: ["Nothing phases me", "I should stay on the lookout for a safe place"],
+
+    music: "/audio/Dying_Dragon.mp3"
 }
 ]
 
