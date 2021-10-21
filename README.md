@@ -34,11 +34,14 @@
 <br>
 
 ### Game Link and Guide:
-https://hzerod.github.io/From_Above/
 
-[From Above](https://hzerod.github.io/From_Above/)
+    [From Above](https://hzerod.github.io/From_Above/)
 
+    The $Begin Adventure$ button will take the player to the introductory story. Clicking $Start Game$ will start the game. 
 
+    It is simple: Read the story shown and click on which path you would take as the protagonist.
+
+    ![I](/images/From_Above.png)
 
 
 
