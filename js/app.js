@@ -34,7 +34,7 @@ const layerZeroStory = [
 
     },
     {   //MAGIC: DRAKE
-        storyline:["The girl blasted the massive beast with fire square in its face. The drake shrieked and quickly moved backwards.", "The magic assault was steady and unrelenting, and so the drake took off quicker than when it landed. But there was a problem. It went straight in the direction of the mountains.Bold, decisive, and never one to back down, she marched on. Ready for anything.","It took three more hours to reach the foot of the mountain. Just like old man........"],
+        storyline:["The girl blasted the massive beast with fire square in its face. The drake shrieked and quickly moved backwards.", "The magic assault was steady and unrelenting, and so the drake took off quicker than when it landed. But there was a problem. It went straight in the direction of the mountains.Bold, decisive, and never one to back down, she marched on. Ready for anything.","It took three more hours to reach the foot of the mountain, where she found the wooden cabin surrounded by grazing sheep. Before she had a chance to knock the woman with the long black hair and the mark on the scar on her face came out, fully expecting the marked child. 'Ah, here you are, child! You must be exhausted. Come inside and rest up for the day.' The woman's name was Ingrid: slim, tall, pretty, and somehow old and young at once. After dinner the girl wondered out  "],
     
         choices: ["Climb the mountain", "Cross through tunnel"],
 
@@ -149,10 +149,10 @@ layerCount += 1
     layerCount += 1
 }
 for(let i = 0;i <storyP.length;i++){ 
-    storyP[i].innerText = storyLayer[idxCurrent].storyline[i]
+    storyP[i].innerHTML = storyLayer[idxCurrent].storyline[i]
 }
 for(let i = 0;i<listEl.length;i++){
-    listEl[i].innerHTML = storyLayer[idxCurrent].choices[i]
+    listEl[i].innerText = storyLayer[idxCurrent].choices[i]
     // listEl[i].style.background = "purple"
     // listEl[i].style.color = "red"
 } 

@@ -3,14 +3,18 @@
 body{
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,184,228,1) 35%, rgba(8,80,115,1) 100%);
+    margin-top: 100px;
 } 
 .main-div{
     position: relative;
     margin: 0px 400px 0px 100px;
-
-    animation: fadeInDown;
-
+    
 }
+
+/* .text{
+    animation: animate__fadeOut;
+    
+} */
 
 p{
     position: relative;
@@ -25,10 +29,6 @@ p{
     background: black;
     color: white;
     padding-left: 7%;
-    animation: animate_fadeInDown;
-    
-
-    
     
 }
 
@@ -38,30 +38,11 @@ ul{
     text-align: center;
     background-color: #9fd3ed;
     
-    
 }
 
 
 
-/* #p1{
-    animation: animated-text 4s linear 1s 1 normal both;
-
-}
-
-#p2{
-    animation: animated-text 5s linear 6s 1 normal both;
-
-}
-
-#p3{
-    animation: animated-text 5s linear 11s 1 normal both;
-
-} */
-
-
-
-
-
+/* 
 .btn{
     position: absolute;
     top: 350px;
@@ -73,23 +54,12 @@ ul{
     position: absolute;
     top: 270px;
     margin-left: 500px;
-    margin-right: 200px;
-}
-
-/*p.text{
-    position: relative;
-    top: 40px;
-    background: black;
-    color: white;
-    padding-left: 7%;
-}*/
+    margin-right: 500px;
+} */
 
 
-  
-  /* text animation */
-  
  
 
-  @keyframes animate_fadeInDown{ 
-    from { width: 0; } 
+  @keyframes animate__fadeIn{ 
+    from { height: 0; } 
   }
