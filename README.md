@@ -8,7 +8,7 @@
 <br>
 <br>
 
-### Introduction:
+### Introduction
 
     From Above is a choose your own adventure browser game built for General Assembly's SEI Unit 1 project. The minimum expectations are the following:
         1. At least four alternative endings
@@ -25,7 +25,7 @@
     Handling the functionality of story choices, their associated DOM manipulations and CSS hiccups(to not say disasters) made for a very busy project week.
 
 
-### Motivations:
+### Motivations
 
     While the tasks at hand were time consuming and challenging the process was enjoyable throughout. Stories had always raptured me as a child, be it in the form of video games, movies, anime, books and my own occassional 2 hour flights of imagination. Choose your own adventure was a no brainer.
 
@@ -33,15 +33,35 @@
 
 <br>
 
-### Game Link and Guide:
+### Game Link and Guide
 
-    [From Above](https://hzerod.github.io/From_Above/)
+[From Above](https://hzerod.github.io/From_Above/)
 
-    The $Begin Adventure$ button will take the player to the introductory story. Clicking $Start Game$ will start the game. 
 
-    It is simple: Read the story shown and click on which path you would take as the protagonist.
+    The Begin Adventure button will take the player to the introductory story. Clicking Start Game will start the game. 
 
-    ![I](/images/From_Above.png)
+    It is simple: Read the story shown and click on which path you would take as the protagonist. An example is shown below:
+
+![image](/images/From_Above.png)
+<br>
+
+
+
+### Technologies Used
+
+    Languages: Javascript, HTML, CSS
+    Libraries: CSS Bootstrap
+
+
+### Next Steps
+
+    Further comepetence in data structures will be acquired for the handling of large amounts of text. This will make possible a larger story and variety of player choices.
+
+    
+
+
+
+
 
 
 
