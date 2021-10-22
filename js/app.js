@@ -2,9 +2,6 @@ const introStory = ["Seventy years ago a bright white light tore through the nig
 
 "As many of the men approached, their skin began to dimly glow the color of the meteorite, after which they'd turn to crystal themselves. Terror spread throughout the camps and news of the event quickly made its way throughout the kingdoms. The giant crystalline object's fall produced many smaller fragments, spread throughout the three kingdoms. Many throughout the land had the sudden appearance of a mark on their right wrist, a few others on their left. Those marked right were endowed with gifts---heightened intelligence, enhanced perception, unusual physical endurance and some with the ability to manipulate the elements. Those marked left became known as Prophets, for soon enough only they would have answers to the many questions surrounding the object in Red Canyon. The budding Prophets began thrashing in their sleep, waking in cold sweats and complete disorientation. Soon their night terrors turned to consistent dreams, and it became evident that not only was there meaning, but a message. \n 'The life inside the fallen crystal calls itself Ora. Those with the right-mark must be made strong and returned to it once they come of age. This return of Ora's children will bring strength and prosperity.'  ", "It was Kravidgaya that returned the first three Children. A brutal war between the kingdom and Galos had raged for years, with the latter coming close to total victory. Three young generals of the Kravidgayan Mountain Riders, men of renown, and bearing the Mark ever since the night of the white light, presented themselves before the meteorite. These men did not turn to crystal, but into incandescent white lights. First becoming one, and then being absorbed by Ora. The tide of the war turned within the day.  "
 
-
-
-
 ]
 
 
@@ -70,8 +67,11 @@ choices: ["Chuckle", "Keep your stoic dignity"]
 
     choices: ["Nothing phases me", "I should stay on the lookout for a safe place"],
     music: "/audio/Dying_Dragon.mp3"
-}
+},//6,
+{},//7
+{},//8
 ]
+
 
 
     

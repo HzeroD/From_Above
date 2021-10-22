@@ -52,6 +52,12 @@ Languages: Javascript, HTML, CSS
 Libraries: CSS Bootstrap
 
 
+### Credits
+
+Hollow Knight OST
+FF 7 OST
+
+
 ### Next Steps
 
 To become competent in using data structures other than arrays. Making possible the introduction of a larger story and more player choices
