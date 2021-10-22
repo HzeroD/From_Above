@@ -1,15 +1,11 @@
-const introStory = ["Seventy years ago a bright white light tore through the night sky, the event being witnessed by citizens from throughout the three kingdoms. The enourmous meteorite landed in the neutral Red Canyon desert and within a week Galos, Kravidgaya and Sino had their soldiers and investigators at the landing site. The object left all whom laid sight on it mesmerized, for it was crystalline and glowed a blueish white light.",
+const introStory = ["Seventy years ago a bright white light tore through the night sky, the event being witnessed by citizens from throughout the three kingdoms. The enourmous meteorite landed in the neutral Red Canyon desert and within a week Galos, Kravidgaya and Sino had soldiers and representatives at the landing site. The object entranced all whom laid eyes on it, for aside from its size it was crystalline and gave off a blueish white light. Many fragments of the giant fallen object were spread thoughout the kingdoms made their way throughout the kingdoms.",
 
-"As many of the men approached, their skin began to dimly glow the color of the meteorite, after which they'd turn to chrystal themselves. The horror spread throughout the camp and the news made its way back home quickly.",
+"As many of the men approached, their skin began to dimly glow the color of the meteorite, after which they'd turn to chrystal themselves. Terror spread throughout the camps and news of the occurance quickly made its way throughout the kingdoms. The giant chrystalline object's fall produced many smaller fragments, spread throughout the three kingdoms. Many throughout the land had the sudden appearance of a mark on their right wrist, a few others on their left. Those marked right were endowed with gifts---heightened intelligence, enhanced perception, unusual physical endurance and some with the ability to manipulate the elements. Those marked left became known as Prophets, for soon enough only they would have answers to the many questions surrounding the object in Red Canyon. The soon to be Prophets began thrashing in their sleep, waking in cold sweats and in complete disorientation. Soon their night terrors turned to consistent dreams, and it became evident that not only was there meaning, but a message. \n 'The life inside the fallen chrystal calls itself Ora. If the people so desired, they  ",
 
 "Many throughout the land had the appearance of a mark on their right wrist, a few others on their left. Those marked right were endowed with gifts---heightened intelligence, enhanced perception, and unusual physical endurance "
 
 
 ]
-
-
-
-
 
 
 
@@ -34,7 +30,7 @@ const layerZeroStory = [
 
     },
     {   //MAGIC: DRAKE
-        storyline:["The girl blasted the massive beast with fire square in its face. The drake shrieked and quickly moved backwards.", "The magic assault was steady and unrelenting, and so the drake took off quicker than when it landed. But there was a problem. It went straight in the direction of the mountains.Bold, decisive, and never one to back down, she marched on. Ready for anything.","It took three more hours to reach the foot of the mountain, where she found the wooden cabin surrounded by grazing sheep. Before she had a chance to knock the woman with the long black hair and the mark on the scar on her face came out, fully expecting the marked child. 'Ah, here you are, child! You must be exhausted. Come inside and rest up for the day.' The woman's name was Ingrid: slim, tall, pretty, and somehow old and young at once. After dinner the girl mentioned her encounter with the drake. Ingrid was near unbelieving--no one she knows has seen a drake in over a decade. But worse yet was the danger her sheep were in. Surely the flying beast made its home near the mountain peak where they tend to do so. 'Child, the pride of a drake can only be subdued through strength. You bearing Ora's sign on your wrist allowed you to face it and win, meaning you might be safe from it if you were to see it again. I on the other hand....'. It was a tense, sleepless night for Ingrid. The next morning the girl pepared herself for the journey ahead. She was to take the tunnel highway which cut right through the mountain, getting her to Amos within a day. But she could not just leave Ingrid in her current situation. 'No child! Too much is at stake. Carry on with your task. I can well handle myself'. But there girl was stern and at times obstinate. And strong. Yes, strong. "],
+        storyline:["The girl blasted the massive beast with fire square in its face. The drake shrieked and quickly moved backwards.", "The magic assault was steady and unrelenting, and so the drake took off quicker than when it landed. But there was a problem. It went straight in the direction of the mountains.Bold, decisive, and never one to back down, she marched on. Ready for anything.","It took three more hours to reach the foot of the mountain, where she found the wooden cabin surrounded by grazing sheep. Before she had a chance to knock the woman with the long black hair and the mark on the scar on her face came out, fully expecting the marked child. 'Ah, here you are, child! You must be exhausted. Come inside and rest up for the day.' The woman's name was Ingrid: slim, tall, pretty, and somehow old and young at once. After dinner the girl mentioned her encounter with the drake. Ingrid was near unbelieving--no one she knows has seen a drake in over a decade. But worse yet was the danger her sheep were in. Surely the flying beast made its home near the mountain peak where they tend to do so. 'Child, the pride of a drake can only be subdued through strength. You bearing Ora's sign on your wrist allowed you to face it and win, meaning you might be safe from it if you were to see it again. I on the other hand....'. It was a tense, sleepless night for Ingrid. The next morning the girl pepared herself for the journey ahead. She was to take the tunnel highway which cut right through the mountain, getting her to Amos within a day. But she could not just leave Ingrid in her current predicament. 'No child! Too much is at stake. Carry on with your business. I can handle myself well enough'. But the girl was stern, bordering on obstinate. And strong. Yes, strong. "],
     
         choices: ["Climb the mountain", "Cross through tunnel"],
 
@@ -53,7 +49,7 @@ const layerZeroStory = [
     
         {  //TUNNEL VENTURE
             storyline: ["And on she went with her torch at hand. ","",""],
-            choices: ["Use Ora's Sign", "Wait for help"]
+            choices: ["Use Mark of Ora", "Wait for help"]
         }
     
     
@@ -101,6 +97,9 @@ let audioEl = document.querySelector("audio")
 let listEl = document.querySelectorAll(".list-group-item")
 let listEl2 = document.querySelector(".choices")
 
+let xx = document.querySelector(".list-group")
+xx.style.display = "none"
+
 //-------------------------Event Listeners------------------------------
 button.addEventListener('click',init)
 sliderBtns.addEventListener('click',mainGameInit)
@@ -139,6 +138,7 @@ function renderIntro(){
 
 
 function mainGameInit(){
+xx.style.display = "block"
 sliderBtns.style.display='none'
 if(layerCount === 0){
     storyLayer = layerZeroStory
