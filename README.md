@@ -10,7 +10,7 @@
 
 ### Introduction
 
-From Above is a choose your own adventure browser game built for General Assembly's SEI Unit 1 project. The minimum expectations are the following:
+From Above is a Choose Your Own Adventure browser game built for General Assembly's SEI Unit 1 project. The minimum expectations are the following:
 1. At least four alternative endings
 2. Animations
 3. Music
