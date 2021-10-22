@@ -54,7 +54,7 @@ Libraries: CSS Bootstrap
 
 ### Next Steps
 
-Further comeptence in data structures will be acquired for the handling of large amounts of text. This will make possible a larger story and variety of player choices.
+To become competent in using data structures other than arrays. Making possible the introduction of a larger story and more player choices
 
 
 
