@@ -73,6 +73,34 @@ choices: ["Chuckle", "Keep your stoic dignity"]
 ]
 
 
+const layerFourStory = [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},//
+    {storyline: ["You Win","You Win","You Win"],
+     chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+
+]
+
 
     
 
@@ -157,6 +185,9 @@ layerCount += 1
 } else if(layerCount === 3){
     storyLayer = layerThreeStory
     layerCount += 1
+} else if(layerCount === 4){
+    storyLayer = layerFourStory
+    layerCount +1
 }
 for(let i = 0;i <storyP.length;i++){ 
     storyP[i].innerHTML = storyLayer[idxCurrent].storyline[i]
