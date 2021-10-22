@@ -16,7 +16,7 @@ From Above is a choose your own adventure browser game built for General Assembl
 3. Music
 4. Good story
 
-A cursory view might lead to the dismissal of this project's functionality as a little above easy, but the reality of its actual difficulty for a beginner programmer becomes clear soon after construction. 
+A cursory view might lead to the dismissal of this project's functionality as a little above easy, but the reality of its actual difficulty for a beginner programmer becomes clear from the outset. 
 
 There is of course much writing and creativity involved in the crafting of a halfway decent story. A process which quickly increases in complexity due to the nature of the game and the minimum of four endings required.
     
