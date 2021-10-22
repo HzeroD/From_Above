@@ -1,8 +1,8 @@
 const introStory = ["Seventy years ago a bright white light tore through the night sky, the event being witnessed by citizens from throughout the three kingdoms. The enourmous meteorite landed in the neutral Red Canyon desert and within a week Galos, Kravidgaya and Sino had soldiers and representatives at the landing site. The object entranced all whom laid eyes on it, for aside from its size it was crystalline and gave off a blueish white light. Many fragments of the giant fallen object were spread thoughout the kingdoms made their way throughout the kingdoms.",
 
-"As many of the men approached, their skin began to dimly glow the color of the meteorite, after which they'd turn to chrystal themselves. Terror spread throughout the camps and news of the occurance quickly made its way throughout the kingdoms. The giant chrystalline object's fall produced many smaller fragments, spread throughout the three kingdoms. Many throughout the land had the sudden appearance of a mark on their right wrist, a few others on their left. Those marked right were endowed with gifts---heightened intelligence, enhanced perception, unusual physical endurance and some with the ability to manipulate the elements. Those marked left became known as Prophets, for soon enough only they would have answers to the many questions surrounding the object in Red Canyon. The soon to be Prophets began thrashing in their sleep, waking in cold sweats and in complete disorientation. Soon their night terrors turned to consistent dreams, and it became evident that not only was there meaning, but a message. \n 'The life inside the fallen chrystal calls itself Ora. If the people so desired, they  ",
+"As many of the men approached, their skin began to dimly glow the color of the meteorite, after which they'd turn to chrystal themselves. Terror spread throughout the camps and news of the occurance quickly made its way throughout the kingdoms. The giant chrystalline object's fall produced many smaller fragments, spread throughout the three kingdoms. Many throughout the land had the sudden appearance of a mark on their right wrist, a few others on their left. Those marked right were endowed with gifts---heightened intelligence, enhanced perception, unusual physical endurance and some with the ability to manipulate the elements. Those marked left became known as Prophets, for soon enough only they would have answers to the many questions surrounding the object in Red Canyon. The soon to be Prophets began thrashing in their sleep, waking in cold sweats and in complete disorientation. Soon their night terrors turned to consistent dreams, and it became evident that not only was there meaning, but a message. \n 'The life inside the fallen chrystal calls itself Ora. Those with the right-mark must be made strong and returned to it once they come of age. This return of Ora's children will bring strength and prosperity.'  ", "It was Kravidgaya that returned the first three Children. A brutal war between the kingdom and Galos had raged for years, with the latter coming close to total victory. Three young generals of the Kravidgayan Mountain Riders, men of renown, and bearing the Mark ever since the night of the white light, presented themselves before the meteorite. These men did not turn to crystal, but into an incandescent white lights. First becoming one, and then being absorbed by Ora. The tide of the war turned within the day.  "
 
-"Many throughout the land had the appearance of a mark on their right wrist, a few others on their left. Those marked right were endowed with gifts---heightened intelligence, enhanced perception, and unusual physical endurance "
+
 
 
 ]
@@ -11,9 +11,9 @@ const introStory = ["Seventy years ago a bright white light tore through the nig
 
 
 const layerZeroStory = [
-    {storyline: ["Farewell. Be strong.","And so she went. The green, rolling hills of Galos were vast, and with the severely blue sky holding the absurdly radiant sun, the girl felt joy and optimism the likes of which surprised her.","The hours came and went but the girl looked forward without turning in the slightest. Until a quick, large shadow passed right through her: she looked up immediately. A drake! Impossible. But so it was, a dark purple, rough looking drake was coming down fast and there wasn't a place to hide in these vast open fields. The drake landed before her, his eyes locked on her with intent. What will the girl do?"],
+    {storyline: ["Basil the Prophet had told the story many times, but it never bored her. As usual, she listened her characteristic blank stare.  'Today is the day. Head to the city of Amos and receive the Oric crystal from the man in red. It will give you the strength necessary for your pilgrimage to Red Canyon'. They stood at the outskirts of the town for many minutes in silence. 'Farewell child, it has been a pleasure'. ","And so she went. The green, rolling hills of Galos were vast, and with the severely blue sky holding the absurdly radiant sun, the girl felt joy and optimism the likes of which surprised her.","The hours came and went but the she looked ever forward , turning not in the slightest. Suddenly, a large shadow zoomed past her from up above: she looked up immediately. A drake! Impossible. But so it was, a dark purple, rough looking drake was coming down fast and there was not a place to hide in these vast open fields. The drake landed before her, its violent eyes locked on its prey with killing intent. What will the girl do?"],
     
-    choices: ["Talk to the beast", "Blast it with fire magic"],
+    choices: ["Talk to the beast. There are stories of these beasts understanding human language...", "Blast it with fire magic. No time for games."],
     
     music: "/audio/Hollow Knight OST - Calm Greenpath (Extended).mp3"
     
@@ -30,7 +30,7 @@ const layerZeroStory = [
 
     },
     {   //MAGIC: DRAKE
-        storyline:["The girl blasted the massive beast with fire square in its face. The drake shrieked and quickly moved backwards.", "The magic assault was steady and unrelenting, and so the drake took off quicker than when it landed. But there was a problem. It went straight in the direction of the mountains.Bold, decisive, and never one to back down, she marched on. Ready for anything.","It took three more hours to reach the foot of the mountain, where she found the wooden cabin surrounded by grazing sheep. Before she had a chance to knock the woman with the long black hair and the mark on the scar on her face came out, fully expecting the marked child. 'Ah, here you are, child! You must be exhausted. Come inside and rest up for the day.' The woman's name was Ingrid: slim, tall, pretty, and somehow old and young at once. After dinner the girl mentioned her encounter with the drake. Ingrid was near unbelieving--no one she knows has seen a drake in over a decade. But worse yet was the danger her sheep were in. Surely the flying beast made its home near the mountain peak where they tend to do so. 'Child, the pride of a drake can only be subdued through strength. You bearing Ora's sign on your wrist allowed you to face it and win, meaning you might be safe from it if you were to see it again. I on the other hand....'. It was a tense, sleepless night for Ingrid. The next morning the girl pepared herself for the journey ahead. She was to take the tunnel highway which cut right through the mountain, getting her to Amos within a day. But she could not just leave Ingrid in her current predicament. 'No child! Too much is at stake. Carry on with your business. I can handle myself well enough'. But the girl was stern, bordering on obstinate. And strong. Yes, strong. "],
+        storyline:["The girl blasted the massive beast with fire square in its face. The drake shrieked and quickly moved backwards.", "The magic assault was steady and unrelenting, and so the drake took off quicker than when it landed. But there was a problem. It went straight in the direction of the mountains towards which she headed. Bold, decisive, and never one to back down, she marched on. Ready for anything.","It took another three hours to reach the foot of the mountain, where she spotted the wooden cabin surrounded by grazing sheep that Basil had mentioned. Before she had a chance to knock the woman black and long haired woman with the scar on her face emerged from the side of the cabin, fully expecting the marked child. 'Ah, here you are, child! You must be exhausted. Come inside and rest for the day.' The woman's name was Ingrid: slim, tall, pretty, and somehow old and young at once. After dinner the girl mentioned her encounter with the drake. Ingrid was astounded--last she saw a drake was over two decades ago, and none she has spoken to over the years have even mentioned the appearance of one. Her wooden cabin, dozens of sheep, and her very life were in danger. Surely the flying beast made its home near the mountain peak--it's their terrain of preference. 'Child, the pride of a drake can only be subdued through strength. You bearing Ora's mark on your wrist allowed you to face it and win, meaning you might be safe if you were to encounter it again. I on the other hand....'. It was a tense, sleepless night for the woman. The next morning the girl pepared  for the journey ahead. She was to take the tunnel highway which cut right through the mountain, getting her to Amos within a day. But she found it difficult to leave the situation as it was.'No child! Too much is at stake. Carry on with your business. I can handle myself well enough'. But the girl was stern, bordering on obstinate. And strong. Yes, strong. "],
     
         choices: ["Climb the mountain", "Cross through tunnel"],
 
@@ -43,8 +43,8 @@ const layerZeroStory = [
         {}, //STORY OVER
     
         {  //MOUNTAIN CLIMBER
-            storyline: ["The mountain was nowhere near impossibly tall and during her training with Basil the Prophet she had climbed taller ones numerous times. Resting after two hours or so of climbing, a loud roar came from up ahead. ","The girl was not one to ever back down and so with renewed strength she went on. 'ROAAARRR'- it was the drake. But the beast looked nowhere near as menacing as it had in the plains, though a drake is a drake, and any false move could mean death. It looked weak, but not not defeated.","After staring at each other for 10 eternal seconds, something in its demeanor shifted. It looked...welcoming. It was then that the girl remembered stories she had heard of drakes being beasts of honor, whom would submit to those stronger than itself. It turned its head away and layed on the floor, as if inviting the girl to get on it."],
-            choices: ["Ride the drake", "Kill the drake"]
+            storyline: ["The mountain was nowhere near impossibly tall and during her training with Basil the Prophet she had climbed taller ones numerous times. Resting after three hours of climbing, a loud roar came from up ahead. ","The girl was not one to ever back down and so with renewed strength she went on. 'ROAAARRR'- it was the drake. The beast looked nowhere near as menacing as it had in the plains. But it was a drake after all, and any false move could mean death. It looked weak, but not not defeated.","After staring at each other for 10 eternal seconds, something in its demeanor shifted. It looked...welcoming. She recalled Ingrid's words. It turned its head away and layed gently on the ground, as if inviting the girl."],
+            choices: ["Ride the drake...I am strong", "Kill the drake...Ingrid..."]
         },
     
         {  //TUNNEL VENTURE
@@ -97,14 +97,17 @@ let audioEl = document.querySelector("audio")
 let listEl = document.querySelectorAll(".list-group-item")
 let listEl2 = document.querySelector(".choices")
 
-let xx = document.querySelector(".list-group")
-xx.style.display = "none"
+let liBlocker = document.querySelector(".list-group") //this reference exists to hide the li element until it is needed
+
+liBlocker.style.display = "none" 
 
 //-------------------------Event Listeners------------------------------
 button.addEventListener('click',init)
 sliderBtns.addEventListener('click',mainGameInit)
 listEl2.addEventListener('click',choiceLogic)
 
+
+//-----------------------Functions---------------------------------------
 
 
 function init(){
@@ -125,7 +128,7 @@ function renderIntro(){
     for(let i = 0; i < storyP.length;i++){
     storyP[i].innerText = introStory[i]
     }
-    console.log(storyP[1])
+    
     button.style.display='none'
 
     audioEl.src = "/audio/Hollow Knight OST - Title Theme.mp3"
@@ -138,7 +141,7 @@ function renderIntro(){
 
 
 function mainGameInit(){
-xx.style.display = "block"
+liBlocker.style.display = "block"
 sliderBtns.style.display='none'
 if(layerCount === 0){
     storyLayer = layerZeroStory
@@ -187,15 +190,12 @@ function choiceLogic(evt) {
         idxCurrent -= 1
     }
 
-    console.log(idxCurrent)
+    
 
     mainGameInit()
 }
 
 
-function gameOver(){
-    
-}
 
 
 
