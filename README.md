@@ -1,4 +1,4 @@
-# SEI-CC-4-BUILD A BROWSER GAME
+# SEI--10/04--BUILD A BROWSER GAME
 ## FROM ABOVE
 #### A choose your own adventure game
 
@@ -20,7 +20,7 @@ A cursory view might lead to the dismissal of this project's functionality as a 
 
 There is of course much writing and creativity involved in the crafting of a halfway decent story. A process which quickly increases in complexity due to the nature of the game and the minimum of four endings required.
     
-The questions of which data structures were to be used to handle the numerous parts of the story are central. Lacking experience in classes and their behaviors the choice of array ended up being considered best. Arrays of objects(which in turn handled text) in particular.
+The questions of which data structures were to be used to handle the numerous parts of the story are central. Lacking experience in classes and their behaviors the choice of array ended up being considered as best. Arrays of objects in particular.
 
 Handling the functionality of story choices, their associated DOM manipulations and CSS hiccups(to not say disasters) made for a busy project week.
 
