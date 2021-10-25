@@ -9,18 +9,18 @@ body{
     justify-items: center;    
 }
 
- p{
+p{
     background-color: black;
     color: white;
     text-align: center;
     border-radius: 6px;
     margin-left: 40px;
     margin-right: 40px;
- }
+}
 
- ul:empty{
+ul:empty{
     display:none;
- }
+}
 
 .begin{
     margin: 20px 300px 20px 575px;
