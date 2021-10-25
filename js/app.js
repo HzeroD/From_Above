@@ -1,7 +1,7 @@
+//-------------------------------Story Arrays----------------------------------------//
 const introStory = ["Seventy years ago a bright white light tore through the night sky, the event being witnessed by citizens from throughout the three kingdoms. The enormous meteorite landed in the neutral Red Canyon desert and within a week Galos, Kravidgaya and Sino had soldiers and representatives at the landing site. The object entranced all who laid eyes on it, for aside from its size it was crystalline and gave off a blueish white light. Many fragments of the giant fallen object were spread throughout the kingdoms made their way throughout the kingdoms.",
-
-"As many of the men approached, their skin began to dimly glow the color of the meteorite, after which they'd turn to crystal themselves. Terror spread throughout the camps and news of the event quickly made its way throughout the kingdoms. The giant crystalline object's fall produced many smaller fragments, spread throughout the three kingdoms. Many throughout the land had the sudden appearance of a mark on their right wrist, a few others on their left. Those marked right were endowed with gifts---heightened intelligence, enhanced perception, unusual physical endurance and some with the ability to manipulate the elements. Those marked left became known as Prophets, for soon enough only they would have answers to the many questions surrounding the object in Red Canyon. The budding Prophets began thrashing in their sleep, waking in cold sweats and complete disorientation. Soon their night terrors turned to consistent dreams, and it became evident that not only was there meaning, but a message. \n 'The life inside the fallen crystal calls itself Ora. Those with the right-mark must be made strong and returned to it once they come of age. This return of Ora's children will bring strength and prosperity.'  ", "It was Kravidgaya that returned the first three Children. A brutal war between the kingdom and Galos had raged for years, with the latter coming close to total victory. Three young generals of the Kravidgayan Mountain Riders, men of renown, and bearing the Mark ever since the night of the white light, presented themselves before the meteorite. These men did not turn to crystal, but into incandescent white lights. First becoming one, and then being absorbed by Ora. The tide of the war turned within the day.  "
-
+"As many of the men approached, their skin began to dimly glow the color of the meteorite, after which they'd turn to crystal themselves. Terror spread throughout the camps and news of the event quickly made its way throughout the kingdoms. The giant crystalline object's fall produced many smaller fragments, spread throughout the three kingdoms. Many throughout the land had the sudden appearance of a mark on their right wrist, a few others on their left. Those marked right were endowed with gifts---heightened intelligence, enhanced perception, unusual physical endurance and some with the ability to manipulate the elements. Those marked left became known as Prophets, for soon enough only they would have answers to the many questions surrounding the object in Red Canyon. The budding Prophets began thrashing in their sleep, waking in cold sweats and complete disorientation. Soon their night terrors turned to consistent dreams, and it became evident that not only was there meaning, but a message. \n 'The life inside the fallen crystal calls itself Ora. Those with the right-mark must be made strong and returned to it once they come of age. This return of Ora's children will bring strength and prosperity.'  ",
+ "It was Kravidgaya that returned the first three Children. A brutal war between the kingdom and Galos had raged for years, with the latter coming close to total victory. Three young generals of the Kravidgayan Mountain Riders, men of renown, and bearing the Mark ever since the night of the white light, presented themselves before the meteorite. These men did not turn to crystal, but into incandescent white lights. First becoming one, and then being absorbed by Ora. The tide of the war turned within the day.  "
 ]
 
 const layerZeroStory = [
@@ -13,7 +13,7 @@ const layerZeroStory = [
     }
     ]
     
-    const layerOneStory = [
+const layerOneStory = [
     {  
         storyline: ["As she declared herself to the drake as a child of Ora, speaking to the beast as if it were a man, the 20 feet tall monster extended its long neck and clamped its jaws on the child. Her death was instant.","Gasme","Over"],
         choices: ["Restart","Game"],
@@ -25,7 +25,7 @@ const layerZeroStory = [
         music: "/audio/Drake_Roar.mp3"
     }]
     
-    const layerTwoStory = [
+const layerTwoStory = [
     {}, 
     {}, 
     {  
@@ -40,7 +40,7 @@ const layerZeroStory = [
     
     ]
 
-    const layerThreeStory = [
+const layerThreeStory = [
     {},
     {},
     {},
@@ -59,38 +59,38 @@ const layerZeroStory = [
     {},
     ]
 
-    const layerFourStory = [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},//
-        {storyline: ["You Win","You Win","You Win"],
-        chioces: ["Win","Win"]},
-        {storyline: ["You Win","You Win","You Win"],
-        chioces: ["Win","Win"]},
-        {storyline: ["You Win","You Win","You Win"],
-        chioces: ["Win","Win"]},
-        {storyline: ["You Win","You Win","You Win"],
-        chioces: ["Win","Win"]},
-        {storyline: ["You Win","You Win","You Win"],
-        chioces: ["Win","Win"]},
-        {storyline: ["You Win","You Win","You Win"],
-        chioces: ["Win","Win"]},
-        {storyline: ["You Win","You Win","You Win"],
-        chioces: ["Win","Win"]},
-        {storyline: ["You Win","You Win","You Win"],
-        chioces: ["Win","Win"]},
+const layerFourStory = [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},//
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
+    {storyline: ["You Win","You Win","You Win"],
+    chioces: ["Win","Win"]},
 
     ]
 
 
     
 
-//-------------------------Variables------------------------------------------
+//-------------------------Variables------------------------------------------//
 
 let storyLayer
 let idxCurrent = 0
@@ -98,7 +98,7 @@ let idxNext = 0
 let layerCount = 0
 let choiceHolder = 0
 
-//-------------------------Cached Element References----------------------
+//-------------------------Cached Element References----------------------//
 let introDiv = document.querySelector(".carousel-item")
 let storyP = document.querySelectorAll(".text")
 let sliderBtns = document.querySelector(".main")
@@ -106,10 +106,9 @@ let button = document.querySelector(".begin")
 let audioEl = document.querySelector("audio")
 let listEl = document.querySelectorAll(".list-group-item")
 let listEl2 = document.querySelector(".choices")
+let liBlocker = document.querySelector(".list-group") 
 
-let liBlocker = document.querySelector(".list-group") //this reference exists to hide the li element until it is needed
 
-liBlocker.style.display = "none" 
 
 
 //-------------------------Event Listeners------------------------------
@@ -119,6 +118,8 @@ listEl2.addEventListener('click',choiceLogic)
 
 
 //-----------------------Functions---------------------------------------
+
+liBlocker.style.display = "none"  // here to block li element until needed 
 
 function init(){
     idxCurrent = 0
